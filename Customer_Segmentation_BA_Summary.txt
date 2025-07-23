@@ -1,10 +1,10 @@
 
 Project 2: Customer Segmentation using RFM and K-Means
 
-🎯 Business Objective:
+Business Objective:
 The marketing team wants to reduce budget waste by sending personalized campaigns instead of generic offers to all customers. However, they currently lack a clear understanding of different customer groups.
 
-💼 Business Problem:
+Business Problem:
 The company has:
 - A large customer base with varied behavior
 - No data-driven method to segment customers
@@ -24,7 +24,7 @@ We used RFM analysis to quantify customer value:
 
 Then we applied K-Means Clustering to group customers into 4 clear segments based on these behaviors.
 
-🧪 Steps Taken:
+Steps Taken:
 1. Cleaned purchase data (removed nulls, returns, invalid entries)
 2. Created RFM features for each customer
 3. Standardized data for clustering
@@ -33,7 +33,7 @@ Then we applied K-Means Clustering to group customers into 4 clear segments base
 6. Profiled clusters and gave business-level labels (e.g. VIPs, At-Risk)
 7. Suggested marketing actions for each segment
 
-📈 Example Output: Segment Profiles
+Example Output: Segment Profiles
 
 Cluster | Recency | Frequency | Monetary | Label         | Action
 --------|---------|-----------|----------|---------------|-------------------------------
@@ -42,7 +42,7 @@ Cluster | Recency | Frequency | Monetary | Label         | Action
 2       | Medium  | Medium    | Medium   | Regular       | Keep engaged with updates
 3       | Low     | Low       | Low      | New Buyers    | Educate and nurture
 
-📊 How This Solves the Problem:
+ How This Solves the Problem:
 - Gave the marketing team clear customer segments
 - Enabled tailored campaigns, boosting engagement
 - Allowed retention planning for at-risk customers
